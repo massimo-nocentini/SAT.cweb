@@ -1,0 +1,11 @@
+
+tex/*.dvi
+tex/*.log
+tex/*.aux
+tex/*.toc
+tex/*.out
+tex/*.bbl
+tex/*.blg
+tex/*.fls
+tex/*.scn
+tex/*.idx
