@@ -44,3 +44,9 @@ fetch:
 		&& wget --no-verbose https://cs.stanford.edu/~knuth/programs/sat-nfa.w \
 		&& wget --no-verbose https://cs.stanford.edu/~knuth/programs/sat-life.tgz \
 		&& wget --no-verbose https://cs.stanford.edu/~knuth/programs/SATexamples.tgz
+
+docker-build:
+	docker build -t ghcr.io/massimo-nocentini/sat.cweb:master .
+
+docker-run:
+	docker run -it --rm ghcr.io/massimo-nocentini/sat.cweb:master
