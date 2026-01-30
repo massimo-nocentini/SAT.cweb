@@ -1,5 +1,5 @@
 
-FROM ghcr.io/massimo-nocentini/sgb.cweb:master
+FROM --platform=$BUILDPLATFORM ghcr.io/massimo-nocentini/sgb.cweb:master
 
 COPY src /home/sat-solvers
 
